@@ -1,5 +1,22 @@
-header {
+header { 
     background-color: green;
+    display : flex;
+    flex-direction: row;
+}
+
+header .logo {
+    padding: 4px;
+}
+
+header div.list {
+    padding: 4px;
+}
+header div.list select.file_list{
+    display: flex;
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 section .first-row {
