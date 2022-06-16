@@ -1,0 +1,44 @@
+header {
+    background-color: green;
+}
+
+section .first-row {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 4px solid orange;
+}
+
+section .first-row div:first-child {
+    border: 2px solid red;
+}
+
+section .first-row progress:nth-child(2) {
+    height: 100px;
+    border: 2px solid yellow;
+}
+
+section .second-row {
+    border: 4px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 870px;
+}
+
+section .second-row .display {
+    border: 2px solid yellowgreen;
+}
+
+section .second-row .user {
+    border: 4px solid rosybrown;
+}
+section .second-row .user .time-interval{
+    border: 2px solid rebeccapurple;
+    margin-bottom: 1px;
+    height: 600px;
+}
+
+section .second-row .user .btn-interface{
+    border: 2px solid green;
+    margin-top: 1px;
+    height: 250px;
+}
