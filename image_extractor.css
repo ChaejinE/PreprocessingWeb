@@ -2,6 +2,7 @@ header {
     background-color: green;
     display : flex;
     flex-direction: row;
+    align-items: center;
 }
 
 header .logo {
@@ -27,6 +28,10 @@ section .first-row {
 
 section .first-row div:first-child {
     border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 section .first-row progress:nth-child(2) {
@@ -39,10 +44,20 @@ section .second-row {
     margin-left: 5px;
     margin-right: 5px;
     height: 870px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section .second-row .display {
     border: 2px solid yellowgreen;
+}
+
+section .second-row .display .video-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 1300px;
 }
 
 section .second-row .user {
@@ -58,4 +73,12 @@ section .second-row .user .btn-interface{
     border: 2px solid green;
     margin-top: 1px;
     height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .second-row .user .btn-interface .btn {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
 }
